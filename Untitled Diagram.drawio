@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="26.0.4">
   <diagram name="Page-1" id="5MwJy7MfU5jN0rsetCYZ">
-    <mxGraphModel dx="1019" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1321" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,10 +19,10 @@
         <mxCell id="l7nKoDrUYivtg7SMq4b7-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#000066;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;" vertex="1" parent="1">
           <mxGeometry x="63" y="20" width="84" height="110.9" as="geometry" />
         </mxCell>
-        <mxCell id="l7nKoDrUYivtg7SMq4b7-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Producer&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="l7nKoDrUYivtg7SMq4b7-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Producer&lt;/h1&gt;&lt;p&gt;Data are push to the queue only if the previous data has been updated.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="300" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="l7nKoDrUYivtg7SMq4b7-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Consumer&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="l7nKoDrUYivtg7SMq4b7-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Consumer&lt;/h1&gt;&lt;p&gt;The consumer stays&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="300" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Queue&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
