@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="26.0.5">
   <diagram name="Page-1" id="5MwJy7MfU5jN0rsetCYZ">
-    <mxGraphModel dx="1522" dy="2079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2349" dy="2079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,12 +20,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#000099;" parent="1" source="l7nKoDrUYivtg7SMq4b7-5" target="l7nKoDrUYivtg7SMq4b7-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="50" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#000066;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;" parent="1" vertex="1">
-          <mxGeometry x="70" y="-100" width="84" height="110.9" as="geometry" />
+          <mxGeometry x="-140" y="-90.45" width="84" height="110.9" as="geometry" />
         </mxCell>
-        <mxCell id="l7nKoDrUYivtg7SMq4b7-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Producer (GO)&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Monitors the database for changes and pushes updated data to the queue. Data is only added to the queue if it has been modified or updated, ensuring efficient processing.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="l7nKoDrUYivtg7SMq4b7-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Producer (Golang)&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Monitors the database for changes and pushes updated data to the queue. Data is only added to the queue if it has been modified or updated, ensuring efficient processing.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="300" width="180" height="220" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Consumer (Python)&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Consumes messages from the queue asynchronously. Processes the data and forwards it to the WebSocket for real-time delivery to connected users.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
@@ -35,10 +37,10 @@
           <mxGeometry x="280" y="230" width="180" height="240" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-12" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#000099;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="1" vertex="1">
-          <mxGeometry x="1241" y="-30" width="78" height="78" as="geometry" />
+          <mxGeometry x="1320" y="90" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Database&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;MongoDB cloud database storing application data. The database generates event streams whenever the data is updated, ensuring real-time data propagation.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="67" y="-310" width="186" height="210" as="geometry" />
+          <mxGeometry x="-46" y="-130" width="186" height="210" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;strokeColor=#000099;" parent="1" source="l7nKoDrUYivtg7SMq4b7-3" target="l7nKoDrUYivtg7SMq4b7-15" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -56,7 +58,7 @@
           <mxGeometry x="950" y="270" width="180" height="213.82" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-20" value="Event Streams" style="shape=rect;fillColor=#0F62FE;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="220" y="10.899999999999999" width="48" height="48" as="geometry" />
+          <mxGeometry x="-188" y="130" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-21" value="" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--event-streams" parent="l7nKoDrUYivtg7SMq4b7-20" vertex="1">
           <mxGeometry width="24" height="24" relative="1" as="geometry">
@@ -81,19 +83,19 @@
           <mxGeometry x="480" y="400" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-32" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Event&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Represents the stream of data changes in the system, flowing from the database through the producer.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="310" y="-30" width="180" height="150" as="geometry" />
+          <mxGeometry x="-210" y="208" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-33" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Users&lt;/h1&gt;&lt;p&gt;Data are being display in real-time to the user.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="-170" width="180" height="120" as="geometry" />
+          <mxGeometry x="1330" y="-30" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#990099;shape=mxgraph.azure.server_rack;" vertex="1" parent="1">
-          <mxGeometry x="897.44" y="-114" width="70" height="84" as="geometry" />
+          <mxGeometry x="930" y="-114" width="70" height="84" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Producer (Python)&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Monitors the database for changes and pushes updated data to the queue. Data is only added to the queue if it has been modified or updated, ensuring efficient processing.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="-380" width="180" height="250" as="geometry" />
+          <mxGeometry x="920" y="-380" width="180" height="250" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-8" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;fillColor=#d5e8d4;align=center;outlineConnect=0;shape=mxgraph.fluid_power.x11870;points=[[0.5,1,0]];rotation=-90;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1021.28" y="40" width="37.44" height="56.18" as="geometry" />
+          <mxGeometry x="1090" y="100.91" width="37.44" height="56.18" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#990099;strokeWidth=2;" edge="1" parent="1" source="l7nKoDrUYivtg7SMq4b7-12" target="os3eVGEmdC3wrFbA3sGX-8">
           <mxGeometry relative="1" as="geometry" />
@@ -101,25 +103,25 @@
         <mxCell id="os3eVGEmdC3wrFbA3sGX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#990099;strokeWidth=2;" edge="1" parent="1" source="os3eVGEmdC3wrFbA3sGX-8" target="os3eVGEmdC3wrFbA3sGX-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="os3eVGEmdC3wrFbA3sGX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#990099;" edge="1" parent="1" source="os3eVGEmdC3wrFbA3sGX-11">
+        <mxCell id="os3eVGEmdC3wrFbA3sGX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#990099;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="os3eVGEmdC3wrFbA3sGX-11" target="os3eVGEmdC3wrFbA3sGX-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470.0000000000002" y="-150.00000000000023" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-11" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#990099;shape=mxgraph.azure.server_rack;" vertex="1" parent="1">
-          <mxGeometry x="520" y="-214" width="70" height="84" as="geometry" />
+          <mxGeometry x="260" y="-174.45" width="70" height="84" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#990099;" edge="1" parent="1" source="os3eVGEmdC3wrFbA3sGX-12" target="os3eVGEmdC3wrFbA3sGX-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="os3eVGEmdC3wrFbA3sGX-12" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic;flipH=1;" vertex="1" parent="1">
+        <mxCell id="os3eVGEmdC3wrFbA3sGX-12" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#000099;shape=mxgraph.azure.queue_generic;flipH=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="27" width="120" height="36" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#990099;strokeWidth=2;" edge="1" parent="1" source="os3eVGEmdC3wrFbA3sGX-1" target="os3eVGEmdC3wrFbA3sGX-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-15" value="Event Streams" style="shape=rect;fillColor=#0F62FE;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="630" y="-80" width="48" height="48" as="geometry" />
+          <mxGeometry x="490" y="-98" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-16" value="" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--event-streams" vertex="1" parent="os3eVGEmdC3wrFbA3sGX-15">
           <mxGeometry width="24" height="24" relative="1" as="geometry">
@@ -130,15 +132,32 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-19" value="Event Streams" style="shape=rect;fillColor=#0F62FE;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="420" y="-178" width="48" height="48" as="geometry" />
+          <mxGeometry x="23" y="-250" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-20" value="" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--event-streams" vertex="1" parent="os3eVGEmdC3wrFbA3sGX-19">
           <mxGeometry width="24" height="24" relative="1" as="geometry">
             <mxPoint x="12" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="os3eVGEmdC3wrFbA3sGX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#990099;" edge="1" parent="1" source="os3eVGEmdC3wrFbA3sGX-19" target="l7nKoDrUYivtg7SMq4b7-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="os3eVGEmdC3wrFbA3sGX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#990099;entryX=0.512;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="os3eVGEmdC3wrFbA3sGX-19" target="l7nKoDrUYivtg7SMq4b7-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3eVGEmdC3wrFbA3sGX-23" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Event&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Represents the stream of data changes in the system, flowing from the database through the producer.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="-422" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="os3eVGEmdC3wrFbA3sGX-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Event&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-weight: normal;&quot; face=&quot;Helvetica&quot;&gt;&lt;font&gt;Asynchronous&lt;/font&gt;&lt;span style=&quot;font-size: medium;&quot;&gt; &lt;/span&gt;&lt;font&gt;Generator&lt;/font&gt;&amp;nbsp;function for streaming, from RabbitMQ to the Websocket.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-234" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="os3eVGEmdC3wrFbA3sGX-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Consumer (Golang)&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Consumes messages from the queue asynchronously. Processes the data and forwards it to the WebSocket for real-time delivery to connected users.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-422" width="180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="os3eVGEmdC3wrFbA3sGX-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Queue&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Serves as an intermediate buffer for event streams. Ensures reliable and orderly delivery of data from the producer to the consumer, supporting asynchronous communication.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-220" width="180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="os3eVGEmdC3wrFbA3sGX-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Websocket&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Enables real-time, bidirectional communication with users. Streams processed data directly to users, ensuring seamless and instantaneous updates.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="-100" width="180" height="213.82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
