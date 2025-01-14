@@ -93,7 +93,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Consumer&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Consumes messages from the queue asynchronously. Processes the data and forwards it to the WebSocket for real-time delivery to connected users.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-90" width="180" height="220" as="geometry" />
+          <mxGeometry x="580" y="-180" width="180" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
