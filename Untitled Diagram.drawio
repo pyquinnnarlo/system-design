@@ -50,10 +50,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-15" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;fillColor=#d5e8d4;align=center;outlineConnect=0;shape=mxgraph.fluid_power.x11870;points=[[0.5,1,0]];rotation=90;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="208" width="37.44" height="56.18" as="geometry" />
+          <mxGeometry x="930" y="208" width="37.44" height="56.18" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Websocket&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Enables real-time, bidirectional communication with users. Streams processed data directly to users, ensuring seamless and instantaneous updates.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="-5.82" width="180" height="213.82" as="geometry" />
+          <mxGeometry x="950" y="270" width="180" height="213.82" as="geometry" />
         </mxCell>
         <mxCell id="l7nKoDrUYivtg7SMq4b7-20" value="Event Streams" style="shape=rect;fillColor=#0F62FE;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="220" y="10.899999999999999" width="48" height="48" as="geometry" />
@@ -86,14 +86,19 @@
         <mxCell id="l7nKoDrUYivtg7SMq4b7-33" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Users&lt;/h1&gt;&lt;p&gt;Data are being display in real-time to the user.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1230" y="-170" width="180" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="os3eVGEmdC3wrFbA3sGX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="os3eVGEmdC3wrFbA3sGX-1" target="l7nKoDrUYivtg7SMq4b7-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00188D;shape=mxgraph.azure.server_rack;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-184" width="70" height="84" as="geometry" />
+          <mxGeometry x="720" y="48" width="70" height="84" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l7nKoDrUYivtg7SMq4b7-27" target="os3eVGEmdC3wrFbA3sGX-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="os3eVGEmdC3wrFbA3sGX-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Consumer&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Consumes messages from the queue asynchronously. Processes the data and forwards it to the WebSocket for real-time delivery to connected users.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="-180" width="180" height="220" as="geometry" />
+          <mxGeometry x="720" y="-180" width="180" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
