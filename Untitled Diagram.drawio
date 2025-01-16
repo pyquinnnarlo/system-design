@@ -225,7 +225,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pbQb53wRpqbdlfqOJr1x-25" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;USSD Servers Instances&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-950" y="520" width="180" height="65.82" as="geometry" />
+          <mxGeometry x="-830" y="358" width="180" height="65.82" as="geometry" />
         </mxCell>
         <mxCell id="pbQb53wRpqbdlfqOJr1x-26" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#000099;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
           <mxGeometry x="-1390" y="-151.55" width="78" height="78" as="geometry" />
