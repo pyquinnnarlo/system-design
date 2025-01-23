@@ -283,11 +283,8 @@
         <mxCell id="pbQb53wRpqbdlfqOJr1x-41" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;External Provider (IPSec)&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-660" y="-3" width="295" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="nOyeyXjsUmyhAMet1zYC-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="60" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="nOyeyXjsUmyhAMet1zYC-3" value="Mass SMS&lt;div&gt;USSD not showing up&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="-151.55" width="280" height="57" as="geometry" />
+        <mxCell id="nOyeyXjsUmyhAMet1zYC-3" value="Mass SMS&lt;div&gt;USSD not showing up&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-98.00000000000001" width="280" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
