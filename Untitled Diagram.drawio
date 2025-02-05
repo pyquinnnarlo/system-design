@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="26.0.11">
   <diagram name="Page-1" id="5MwJy7MfU5jN0rsetCYZ">
-    <mxGraphModel dx="4864" dy="3698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4387" dy="3426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -550,7 +550,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ehFIOOSq4y3dSFhzWssv-104" value="Event Streams" style="shape=rect;fillColor=#0F62FE;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1470" width="48" height="48" as="geometry" />
+          <mxGeometry x="450" y="1460" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="ehFIOOSq4y3dSFhzWssv-105" value="" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--event-streams" parent="ehFIOOSq4y3dSFhzWssv-104" vertex="1">
           <mxGeometry width="24" height="24" relative="1" as="geometry">
@@ -780,6 +780,9 @@
         </mxCell>
         <mxCell id="sc3XshwtAwlOOHyMrLET-71" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VPN&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;glass=1;sketch=1;curveFitting=1;jiggle=2;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
           <mxGeometry x="1530" y="1640" width="218" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sc3XshwtAwlOOHyMrLET-73" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1220" width="50" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
