@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="26.0.11">
   <diagram name="Page-1" id="5MwJy7MfU5jN0rsetCYZ">
-    <mxGraphModel dx="6685" dy="4296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6248" dy="4296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -447,8 +447,11 @@
         <mxCell id="ehFIOOSq4y3dSFhzWssv-75" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#000066;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;" parent="1" vertex="1">
           <mxGeometry x="-290" y="1029.55" width="84" height="110.9" as="geometry" />
         </mxCell>
-        <mxCell id="ehFIOOSq4y3dSFhzWssv-76" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Database&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;MongoDB cloud database storing application data. The database generates event streams whenever the data is updated, ensuring real-time data propagation.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-191" y="951.91" width="186" height="210" as="geometry" />
+        <mxCell id="uPd0ajPVFZN3K_HqikRH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;startArrow=oval;startFill=1;endArrow=oval;endFill=1;" edge="1" parent="1" source="ehFIOOSq4y3dSFhzWssv-76" target="ehFIOOSq4y3dSFhzWssv-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehFIOOSq4y3dSFhzWssv-76" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Database&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;MongoDB cloud database storing application data. The database generates event streams whenever the data is updated, ensuring real-time data propagation.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;glass=1;sketch=1;curveFitting=1;jiggle=2;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
+          <mxGeometry x="-650" y="420" width="186" height="210" as="geometry" />
         </mxCell>
         <mxCell id="ehFIOOSq4y3dSFhzWssv-77" value="Event Streams" style="shape=rect;fillColor=#0F62FE;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-272" y="1271" width="48" height="48" as="geometry" />
@@ -478,17 +481,16 @@
         <mxCell id="ehFIOOSq4y3dSFhzWssv-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.512;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ehFIOOSq4y3dSFhzWssv-86" target="ehFIOOSq4y3dSFhzWssv-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ehFIOOSq4y3dSFhzWssv-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ehFIOOSq4y3dSFhzWssv-89" target="ehFIOOSq4y3dSFhzWssv-86" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ehFIOOSq4y3dSFhzWssv-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ehFIOOSq4y3dSFhzWssv-89" target="ehFIOOSq4y3dSFhzWssv-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="uPd0ajPVFZN3K_HqikRH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehFIOOSq4y3dSFhzWssv-94" target="ehFIOOSq4y3dSFhzWssv-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ehFIOOSq4y3dSFhzWssv-89" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=ep" parent="1" vertex="1">
           <mxGeometry x="250" y="1008.0899999999997" width="50" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="ehFIOOSq4y3dSFhzWssv-94" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
-          <mxGeometry x="-390" y="810" width="400" height="580" as="geometry" />
         </mxCell>
         <mxCell id="ehFIOOSq4y3dSFhzWssv-95" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.mongodb" parent="1" vertex="1">
           <mxGeometry x="-365" y="764.9" width="41.2" height="86.2" as="geometry" />
@@ -810,6 +812,19 @@
         </mxCell>
         <mxCell id="sc3XshwtAwlOOHyMrLET-88" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" parent="1" vertex="1">
           <mxGeometry x="906" y="1373" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="uPd0ajPVFZN3K_HqikRH-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehFIOOSq4y3dSFhzWssv-89" target="ehFIOOSq4y3dSFhzWssv-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="1032" as="sourcePoint" />
+            <mxPoint x="-248" y="842" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="13" y="1032" />
+              <mxPoint x="13" y="842" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehFIOOSq4y3dSFhzWssv-94" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="-390" y="750" width="400" height="630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
