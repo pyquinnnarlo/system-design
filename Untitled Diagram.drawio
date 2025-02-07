@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="26.0.11">
   <diagram name="Page-1" id="5MwJy7MfU5jN0rsetCYZ">
-    <mxGraphModel dx="4069" dy="3245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5204" dy="3892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -487,7 +487,7 @@
         <mxCell id="ehFIOOSq4y3dSFhzWssv-112" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Users (USSD)&lt;/h1&gt;&lt;p&gt;User playing using the USSD.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1870" y="1056" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ehFIOOSq4y3dSFhzWssv-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="sc3XshwtAwlOOHyMrLET-48" target="ehFIOOSq4y3dSFhzWssv-140" edge="1">
+        <mxCell id="ehFIOOSq4y3dSFhzWssv-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="1" source="sc3XshwtAwlOOHyMrLET-48" target="ehFIOOSq4y3dSFhzWssv-140" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-620" y="1214" as="targetPoint" />
             <mxPoint x="-940.0000000000005" y="1289" as="sourcePoint" />
@@ -502,7 +502,7 @@
         <mxCell id="ehFIOOSq4y3dSFhzWssv-140" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;SMS/Payment&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-690" y="1307.8" width="220" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="ehFIOOSq4y3dSFhzWssv-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ehFIOOSq4y3dSFhzWssv-140" target="ehFIOOSq4y3dSFhzWssv-94" edge="1">
+        <mxCell id="ehFIOOSq4y3dSFhzWssv-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="1" source="ehFIOOSq4y3dSFhzWssv-140" target="ehFIOOSq4y3dSFhzWssv-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sc3XshwtAwlOOHyMrLET-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;startArrow=oval;startFill=1;endArrow=oval;endFill=1;strokeWidth=2;" edge="1" parent="1" source="sc3XshwtAwlOOHyMrLET-1" target="ehFIOOSq4y3dSFhzWssv-53">
