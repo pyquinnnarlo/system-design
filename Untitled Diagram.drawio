@@ -412,13 +412,13 @@
         <mxCell id="ehFIOOSq4y3dSFhzWssv-65" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Admin&lt;/h1&gt;&lt;p&gt;Data are being display in real-time to the user.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1590" y="960" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ehFIOOSq4y3dSFhzWssv-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ehFIOOSq4y3dSFhzWssv-66" target="ehFIOOSq4y3dSFhzWssv-64" edge="1">
+        <mxCell id="ehFIOOSq4y3dSFhzWssv-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="ehFIOOSq4y3dSFhzWssv-66" target="ehFIOOSq4y3dSFhzWssv-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ehFIOOSq4y3dSFhzWssv-66" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.open_vpn;" parent="1" vertex="1">
           <mxGeometry x="1490" y="1136" width="34" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="ehFIOOSq4y3dSFhzWssv-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ehFIOOSq4y3dSFhzWssv-68" target="ehFIOOSq4y3dSFhzWssv-66" edge="1">
+        <mxCell id="ehFIOOSq4y3dSFhzWssv-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="ehFIOOSq4y3dSFhzWssv-68" target="ehFIOOSq4y3dSFhzWssv-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ehFIOOSq4y3dSFhzWssv-68" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;fillColor=#d5e8d4;align=center;outlineConnect=0;shape=mxgraph.fluid_power.x11870;points=[[0.5,1,0]];rotation=90;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
