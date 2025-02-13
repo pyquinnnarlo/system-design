@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="26.0.13">
   <diagram name="Page-1" id="5MwJy7MfU5jN0rsetCYZ">
-    <mxGraphModel dx="6625" dy="4492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4919" dy="3605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -778,7 +778,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="88.16" y="2840" width="180" height="180" as="geometry" />
+          <mxGeometry x="80" y="2840" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-2" value="Producer (Python)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="-1.8400000000000034" y="2770" width="360" height="30" as="geometry" />
@@ -793,25 +793,30 @@
           <mxGeometry x="330" y="2850" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4uSZ60hZKBOlh_NoDdJ-6" target="g4uSZ60hZKBOlh_NoDdJ-3">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="698" y="2910" />
+              <mxPoint x="698" y="2951" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4uSZ60hZKBOlh_NoDdJ-6" target="g4uSZ60hZKBOlh_NoDdJ-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="860" y="2850" width="180" height="180" as="geometry" />
+          <mxGeometry x="750" y="2850" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-7" value="Consmer (Golang)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="770" y="2780" width="360" height="30" as="geometry" />
+          <mxGeometry x="680" y="2780" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="g4uSZ60hZKBOlh_NoDdJ-10" target="g4uSZ60hZKBOlh_NoDdJ-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-10" value="Queue" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.queue;" vertex="1" parent="1">
-          <mxGeometry x="1219.6599999999999" y="2881.5" width="117" height="117" as="geometry" />
+          <mxGeometry x="1069.9999999999998" y="2864" width="117" height="117" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-12" value="Queue(jwt_token_queue)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="1117" y="2830" width="360" height="30" as="geometry" />
+          <mxGeometry x="971" y="2840" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4uSZ60hZKBOlh_NoDdJ-13" target="g4uSZ60hZKBOlh_NoDdJ-10">
           <mxGeometry relative="1" as="geometry" />
@@ -819,27 +824,27 @@
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g4uSZ60hZKBOlh_NoDdJ-13" target="g4uSZ60hZKBOlh_NoDdJ-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1920" y="2940" />
-              <mxPoint x="1920" y="3294" />
+              <mxPoint x="1690" y="2940" />
+              <mxPoint x="1690" y="3294" />
               <mxPoint x="40" y="3294" />
               <mxPoint x="40" y="3334" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-13" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1668" y="2850" width="180" height="180" as="geometry" />
+          <mxGeometry x="1430" y="2820" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-14" value="Consmer (Python)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="1578" y="2770" width="360" height="30" as="geometry" />
+          <mxGeometry x="1330" y="2780" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Step 1&lt;/h1&gt;&lt;p&gt;Get user email and password from the frontend and validate it with the database. Publish the user ID to the queue.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="3090" width="180" height="120" as="geometry" />
+          <mxGeometry x="80" y="3030" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Step 2&lt;/h1&gt;&lt;p&gt;Get the user ID from the queue and return all data belongings to that user and publish to the queue.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="860" y="3090" width="180" height="120" as="geometry" />
+          <mxGeometry x="750" y="3040" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Step 3&lt;/h1&gt;&lt;p&gt;Get all the user data in the queue and display them to the frontend.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="3080" width="180" height="120" as="geometry" />
+          <mxGeometry x="1430" y="3010" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4uSZ60hZKBOlh_NoDdJ-20" target="g4uSZ60hZKBOlh_NoDdJ-22">
           <mxGeometry relative="1" as="geometry">
@@ -872,6 +877,9 @@
         </mxCell>
         <mxCell id="g4uSZ60hZKBOlh_NoDdJ-32" value="If user login is not valid" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="-300" y="2978.5" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g4uSZ60hZKBOlh_NoDdJ-34" value="user login request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="2850" width="420" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
