@@ -727,7 +727,7 @@
           <mxGeometry x="-578.8" y="3020" width="255" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1UHkdHn8JAKZX3s-0Eqj-9" value="backend 2 (Erlang)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;" parent="1" vertex="1">
-          <mxGeometry x="-975" y="3096" width="210" height="30" as="geometry" />
+          <mxGeometry x="-940" y="3090" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1UHkdHn8JAKZX3s-0Eqj-10" value="frontend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;" parent="1" vertex="1">
           <mxGeometry x="-800" y="2690" width="210" height="30" as="geometry" />
