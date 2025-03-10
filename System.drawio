@@ -172,8 +172,14 @@
         <mxCell id="Onsyo4jo-kCmoRSjNYsS-69" value="Speed&lt;div&gt;Memory&lt;/div&gt;&lt;div&gt;Availability&lt;/div&gt;&lt;div&gt;Consistant&lt;/div&gt;&lt;div&gt;Scaliablity&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;labelBorderColor=none;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;glass=0;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="950" y="50" width="260" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="Onsyo4jo-kCmoRSjNYsS-70" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;strokeColor=#330000;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="-190" width="60" height="80" as="geometry" />
+        <mxCell id="Onsyo4jo-kCmoRSjNYsS-70" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="-140" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Onsyo4jo-kCmoRSjNYsS-71" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="-109" width="82" height="109.33" as="geometry" />
+        </mxCell>
+        <mxCell id="Onsyo4jo-kCmoRSjNYsS-73" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.mongodb" vertex="1" parent="1">
+          <mxGeometry x="1959.7" y="-106.19999999999999" width="20.6" height="46.2" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
