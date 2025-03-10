@@ -145,6 +145,18 @@
             <mxPoint x="380" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Onsyo4jo-kCmoRSjNYsS-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Onsyo4jo-kCmoRSjNYsS-49" value="User App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Onsyo4jo-kCmoRSjNYsS-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Onsyo4jo-kCmoRSjNYsS-51" value="Admin App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="145" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
