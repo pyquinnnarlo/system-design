@@ -172,6 +172,9 @@
         <mxCell id="Onsyo4jo-kCmoRSjNYsS-69" value="Speed&lt;div&gt;Memory&lt;/div&gt;&lt;div&gt;Availability&lt;/div&gt;&lt;div&gt;Consistant&lt;/div&gt;&lt;div&gt;Scaliablity&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;labelBorderColor=none;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;glass=0;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="950" y="50" width="260" height="255" as="geometry" />
         </mxCell>
+        <mxCell id="Onsyo4jo-kCmoRSjNYsS-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Onsyo4jo-kCmoRSjNYsS-70" target="Onsyo4jo-kCmoRSjNYsS-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Onsyo4jo-kCmoRSjNYsS-70" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="1780" y="-390.66999999999996" width="60" height="80" as="geometry" />
         </mxCell>
@@ -181,8 +184,8 @@
         <mxCell id="Onsyo4jo-kCmoRSjNYsS-73" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.mongodb" vertex="1" parent="1">
           <mxGeometry x="1799.7" y="-356.87" width="20.6" height="46.2" as="geometry" />
         </mxCell>
-        <mxCell id="Onsyo4jo-kCmoRSjNYsS-74" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;User can&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Login to Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Create an Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Delete their Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Update Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Place Orders.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Update Orders&lt;br&gt;&lt;/li&gt;&lt;li&gt;Withdraw&lt;br&gt;&lt;/li&gt;&lt;li&gt;Deposit&lt;br&gt;&lt;/li&gt;&lt;li&gt;Logout&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;View Orders&lt;br&gt;&lt;/li&gt;&lt;li&gt;Views Winners&lt;br&gt;&lt;/li&gt;&lt;li&gt;View finacial history&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="-260" width="180" height="290" as="geometry" />
+        <mxCell id="Onsyo4jo-kCmoRSjNYsS-74" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;User can&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Users financial history&lt;/li&gt;&lt;li&gt;Winners List&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="-260" width="180" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
