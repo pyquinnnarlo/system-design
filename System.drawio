@@ -202,6 +202,9 @@
         <mxCell id="by6k5_wEQXgezO4IZ2Zg-2" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;User can&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Login to Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Create an Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Delete their Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Update Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Place Orders.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Update Orders&lt;br&gt;&lt;/li&gt;&lt;li&gt;Withdraw&lt;br&gt;&lt;/li&gt;&lt;li&gt;Deposit&lt;br&gt;&lt;/li&gt;&lt;li&gt;Logout&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;View Orders&lt;br&gt;&lt;/li&gt;&lt;li&gt;Views Winners&lt;br&gt;&lt;/li&gt;&lt;li&gt;View finacial history&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;align=center;" vertex="1" parent="1">
           <mxGeometry x="2750" y="110" width="180" height="290" as="geometry" />
         </mxCell>
+        <mxCell id="by6k5_wEQXgezO4IZ2Zg-3" value="Feed App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2795" y="-5" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
