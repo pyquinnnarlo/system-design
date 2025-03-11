@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="26.1.0">
   <diagram name="Page-1" id="TuZHPN6i6WBHml9FbNts">
-    <mxGraphModel dx="2486" dy="2475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1361" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Uab8WtM4d6_yBenrPF2Z-1" value="Project Prediction" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
+        <mxCell id="Uab8WtM4d6_yBenrPF2Z-1" value="Project Prediction" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" parent="1" vertex="1">
           <mxGeometry x="850" y="-530" width="1370" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="U4Dmk5BwAMxIFmOMcSQy-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Caching&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
@@ -195,6 +195,12 @@
         </mxCell>
         <mxCell id="Onsyo4jo-kCmoRSjNYsS-76" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;Postgresql can store&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Users Accounts&lt;/li&gt;&lt;li&gt;Admin Accounts&lt;/li&gt;&lt;li&gt;Oders&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;align=center;" parent="1" vertex="1">
           <mxGeometry x="1250" y="-280" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="by6k5_wEQXgezO4IZ2Zg-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="-30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="by6k5_wEQXgezO4IZ2Zg-2" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;User can&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Login to Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Create an Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Delete their Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Update Account.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Place Orders.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Update Orders&lt;br&gt;&lt;/li&gt;&lt;li&gt;Withdraw&lt;br&gt;&lt;/li&gt;&lt;li&gt;Deposit&lt;br&gt;&lt;/li&gt;&lt;li&gt;Logout&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;View Orders&lt;br&gt;&lt;/li&gt;&lt;li&gt;Views Winners&lt;br&gt;&lt;/li&gt;&lt;li&gt;View finacial history&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2750" y="110" width="180" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
