@@ -208,6 +208,9 @@
         <mxCell id="by6k5_wEQXgezO4IZ2Zg-3" value="Feed App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2795" y="-5" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="by6k5_wEQXgezO4IZ2Zg-6" value="Project iBook" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="-530" width="1370" height="1180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
