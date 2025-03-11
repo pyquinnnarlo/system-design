@@ -196,14 +196,14 @@
         <mxCell id="Onsyo4jo-kCmoRSjNYsS-76" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;Postgresql can store&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Users Accounts&lt;/li&gt;&lt;li&gt;Admin Accounts&lt;/li&gt;&lt;li&gt;Oders&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;align=center;" parent="1" vertex="1">
           <mxGeometry x="1250" y="-280" width="180" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="by6k5_wEQXgezO4IZ2Zg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="by6k5_wEQXgezO4IZ2Zg-1" target="by6k5_wEQXgezO4IZ2Zg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="by6k5_wEQXgezO4IZ2Zg-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2780" y="-30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="by6k5_wEQXgezO4IZ2Zg-2" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;User can&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Comment on a post.&lt;/li&gt;&lt;li&gt;Crearte a post.&lt;/li&gt;&lt;li&gt;React to a post.&lt;/li&gt;&lt;li&gt;Reply to a comment.&lt;/li&gt;&lt;li&gt;React to comment.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;View posts.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Views comments&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;align=center;" vertex="1" parent="1">
           <mxGeometry x="2750" y="110" width="180" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="by6k5_wEQXgezO4IZ2Zg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="by6k5_wEQXgezO4IZ2Zg-3" target="by6k5_wEQXgezO4IZ2Zg-2">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="by6k5_wEQXgezO4IZ2Zg-3" value="Feed App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2795" y="-5" width="90" height="30" as="geometry" />
